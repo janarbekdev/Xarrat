@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: sans-serif;
+
+}
+
+.bats {
+
+    /*background: rgba(0, 0, 0, 0.53);*/
+}
+
+.contauner {
+    width: 1140px;
+    /*opacity: 0.2;*/
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.input-imj img {
+    background: blueviolet;
+    width: 30px;
+    height: 200px;
+}
+
+.bats-label {
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 30px;
+    height: 120px;
+    margin: 0 360px;
+
+}
+input{
+    display: none;
+}
+.input-imj{
+    width: 90%;
+}
+
+
+.bats-label label {
+    width: 120px;
+    height: 50px;
+    color: lawngreen;
+    margin: 30px;
+    border-radius: 8px;
+    background: black;
+    font-size: 30px;
+    transition: 1s;
+}
+
+
+
+.bats-label label:hover {
+    color: red;
+      background: lawngreen;
+    transform: scale(1.1);
+}
+
+h1 {
+    margin: 1px 100px;
+}
+
+label {
+
+    width: 200px;
+    height: 40px;
+}
+
+.input-imj img {
+
+    width: 180px;
+    margin: 30px 15px;
+    height: 400px;
+    object-fit: cover;
+    align-items: center;
+    /*display: block;*/
+}
+
+/*.input-imj input{*/
+/*    display: none;*/
+/*}*/
+.foot {
+    display: none;
+
+}
+
+.input-im {
+    width: 60%;
+    height: 90px;
+    margin: 60px 100px;
+    opacity: 2;
+
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*flex-direction: column;*/
+    /*justify-content: space-around;*/
+}
+
+#foot:checked ~ .water,
+#foot:checked ~ .pen,
+#foot:checked ~ .nootbuk,
+#foot:checked ~ .clothes,
+#foot:checked ~ .walring,
+#foot:checked ~ .telephine
+{
+    display: none;
+    transition: 1s;
+}
+
+#home:checked ~ .water,
+#home:checked ~ .pen,
+#home:checked ~ .nootbuk,
+#home:checked ~ .clothes,
+#home:checked ~ .walring,
+#home:checked ~ .telephine {
+    display: none;
+    transition: 1s;
+}
+
+#water:checked ~ .foot,
+#water:checked ~ .pen,
+#water:checked ~ .nootbuk,
+#water:checked ~ .clothes,
+#water:checked ~ .walring,
+#water:checked ~ .telephine {
+    display: none;
+    transition: 3s;
+    color: yellow;
+    background: rgba(23, 10, 13, 0.82);
+}
+
+#pen:checked ~ .foot,
+#pen:checked ~ .water,
+#pen:checked ~ .nootbuk,
+#pen:checked ~ .clothes,
+#pen:checked ~ .walring,
+#pen:checked ~ .telephine {
+    /*opacity: 0.2;*/
+    display: none;
+    transition: 2s;
+}
+
+#nootbuk:checked ~ .foot,
+#nootbuk:checked ~ .water,
+#nootbuk:checked ~ .pen,
+#nootbuk:checked ~ .clothes,
+#nootbuk:checked ~ .walring,
+#nootbuk:checked ~ .telephine {
+    /*opacity: 0.2;*/
+    display: none;
+    transition: 2s;
+}
+
+#clothes:checked ~ .foot,
+#clothes:checked ~ .water,
+#clothes:checked ~ .pen,
+#clothes:checked ~ .nootbuk,
+#clothes:checked ~ .walring,
+#clothes:checked ~ .telephine {
+    /*opacity: 0.2;*/
+    transition: 2s;
+    display: none;
+}
+
+#walking:checked ~ .foot,
+#walking:checked ~ .water,
+#walking:checked ~ .pen,
+#walking:checked ~ .nootbuk,
+#walking:checked ~ .clothes,
+#walking:checked ~ .telephine {
+    /*opacity: 0.2;*/
+    display: none;
+    transition: 2s;
+}
+
+
+{
+/*opacity: 0.4;*/
+/*transition: 2s;*/
+}
